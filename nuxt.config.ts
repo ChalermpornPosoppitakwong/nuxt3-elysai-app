@@ -7,11 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/test-utils',
     '@nuxt/ui',
-    '@nuxt/eslint',
-    'nuxt-elysia'
-  ], 
-  nuxtElysia: {
-    path: '/api' // API จะอยู่ที่ /api แทน /_api
-  }
+    '@nuxt/eslint'
+  ]
 
 })

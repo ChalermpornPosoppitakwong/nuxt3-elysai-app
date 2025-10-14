@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(bun run dev)",
+      "Bash(curl:*)",
+      "Bash(bun add:*)",
+      "Bash(bun run:*)",
+      "Bash(bun rebuild:*)",
+      "Bash(bun install)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
